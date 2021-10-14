@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <link rel="shortcut icon" href="../img/pagina_3/iconos web/web con cinturon.png" type="image/x-icon">
+    <title>Daniel Olivero</title>
+
+    <!-- fontawsome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- JS->VANTA -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r119/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.14/vanta.net.min.js"></script>
+
+    <!-- CSS -->
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body id="body_1" onload="cargarBox()">
+    <header>
+        <nav class="menu">
+            <div class="menu__container">
+                <div class="menu__etiqueta" onclick="botonMenu()">
+                    <i class="fas fa-space-shuttle fa-lg"></i>
+                    <h3>MENU</h3>                    
+                </div>
+            </div>
+            <nav class="menuDesplegable" onclick="ocultarMenu()">
+            <div class="menuDeplegable__container">
+                <div class="menuDesplegable__img">
+                    <img src="../img/menu/menu.png" alt="Avion">
+                </div>
+                <div class="menuDesplegable__ul">
+                  <div class="container__ul">
+                    <ul>
+                      <li class="menuDesplegable__li"><a href="../../index.html">Home</a></li>
+                      <li class="menuDesplegable__li"><a href="#">Portafolio</a></li>
+                      <li class="menuDesplegable__li"><a href="#" class="Contacto">Contáctame</a></li>
+                      <!-- <li class="menuDesplegable__li"><a href="">item_1</a></li> -->
+                  </ul>
+                  </div>
+                </div>
+                </div>
+            </nav>
+        </nav>
+        
+    </header>
+<section>
+    <div class="container-three">
+        <div class="primera-tercera">
+          <div class="texto-principal3">
+          <h1>Bienvenido a mi Portafolio</h1>
+          <h4>Proyectos realizados</h4>
+          </div>
+          <div class="elecion-trabajos">
+            <div class="button-general radio-1" onclick="botonRadio1()">
+                <img src="../img/pagina_3/flecha-abajo.png" alt="" class="radio-scale-0">
+                <h4>WEB</h4>
+            </div>
+            <div class="button-general radio-2" onclick="botonRadio2()">
+                <img src="../img/pagina_3/flecha-abajo.png" class="radio-scale-0" alt="web">
+                <h4>Logos</h4>
+            </div>
+          </div>
+        </div> 
+      
+        <div class="segunda-tercera">
+          <div class="segunda-parte1">
+            <div class="container-web">
+
+              <div class="texto-web">
+                <h2><img src="../img/pagina_3/iconos web/WEB con cinturon.png" alt="web"> Paginas WEB <img src="../img/pagina_3/iconos web/web sin cinturon.png" alt=""></h2>
+              </div>
+              <div class="texto-web2">
+                <h4>Proyectos personales.</h4>
+              </div>
+
+              <div class="imagenes-web">
+                <div class="web-1 box-web scrollArriba">
+                  <img src="../img/pagina_3/Paginas web/Portafolio.png" alt="portafolio" class="box-web-image">
+                  <div class="overlay">
+                    <div class="overlay__text">
+                      <h2>Portafolio</h2>
+                      <p>Proyecto de mi portafolio, donde encontraran todo la informacion relevante de mi.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="web-2 box-web">
+                  <img src="../img/pagina_3/Paginas web/Web-7.png" alt="web-7">
+                  <div class="overlay">
+                    <div class="overlay__text">
+                      <h2>tsunami coffee</h2>
+                      <p>Cafeteria y pasteleria, donde puedes encontrar el mejor cafe de la zona.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="web-techno box-web">
+                  <img src="../img/pagina_3/Paginas web/techno.png" alt="web-7">
+                  <div class="overlay">
+                    <div class="overlay__text">
+                      <h2>TechnoFast</h2>
+                      <p>Blog de tecnologia.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="web-3 box-web">
+                  <img src="../img/pagina_3/Paginas web/Web-6.png" alt="Web-6">
+                  <a href="https://node-servicio.herokuapp.com/" target="_blank"><div class="texto-cuadro">
+                    <h2>Node.js</h2>
+                    <p>Proyecto de una pagina para cursos de node.js.</p>
+                  </div></a>
+                </div> -->
+                <div class="web-4 box-web">
+                  <img src="../img/pagina_3/Paginas web/Web-8.png" alt="web-8">
+                  <div class="overlay">
+                    <div class="overlay__text">
+                      <h2>Piedra papel o tijera</h2>
+                      <p>Proyecto de un juego para mejorar la herramienta de javaScript.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="texto-web2">
+                <h4>Proyectos de CodeCademy.</h4>
+              </div>
+              <div class="imagenes-web">
+                <div class="web-5 box-web">
+                  <img src="../img/pagina_3/Paginas web/Web-1.png" alt="web-5">
+                  <div class="overlay">
+                    <div class="overlay__text">
+                      <h2>Davie´s burguers</h2>
+                      <p>Proyecto en construccion de una venta de hambuerguesa</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="web-6 box-web">
+                  <img src="../img/pagina_3/Paginas web/web-2.png" alt="web-2">
+                  <div class="overlay">
+                    <div class="overlay__text">
+                      <h2>Broadway</h2>
+                      <p>Proyecto en construccion de una pagina turistica de una ciudad.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="web-7 box-web">
+                  <img src="../img/pagina_3/Paginas web/Web-3.png" alt="web-3">
+                  <div class="overlay">
+                    <div class="overlay__text">
+                      <h2>House store</h2>
+                      <p>Proyecto en construccion de una tienda de pintura y de mas</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="web-8 box-web scrollArriba">
+                  <img src="../img/pagina_3/Paginas web/Web-4.png" alt="web-4">
+                  <div class="overlay">
+                    <div class="overlay__text">
+                      <h2>Marruecos</h2>
+                      <p>Proyecto en construccion de una pagina turistica para Marruecos.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="web-9 box-web">
+                  <img src="../img/pagina_3/Paginas web/Web-5.png" alt="Web-9">
+                  <div class="overlay">
+                    <div class="overlay__text">
+                      <h2>Tea cozy</h2>
+                      <p>Proyecto en construccion de una tienda tè y postres para una merienda maravillosa.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="segunda-tercera2">
+          <div class="container-logo">
+            <div class="texto-web">
+                <h2>Logos e Iconos <img src="../img/pagina_3/iconos web/flaticon.png" class="
+                texto-iconos" alt="iconos"></h2>
+            </div>
+            <div class="texto-web2">
+                <h4>Logos</h4>
+            </div>
+            <div class="imagenes-web">
+                <div class="contenedor__logo">
+                    <div id="box-principal1" class="box-p-img" onclick="abirLogo1()">
+                        <div class="logo-1 box-logo" >
+                        <img src="../img/pagina_3/logos/Logo Massato.png" alt="massato"  class="Massato-Food">
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor__logo">
+                <div id="box-principal2" class="box-p-img">
+                    <img src="../img/pagina_3/iconos web/boton-cerrar.png" class="cerrar2 cerrar" alt="cerrar">
+                    <div class="logo-2 box-logo">
+                    <img src="../img/pagina_3/logos/logo segundario.png" onclick="abirLogo2()" alt="logos">
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor__logo">
+                <div id="box-principal3" class="box-p-img">
+                    <img src="../img/pagina_3/iconos web/boton-cerrar.png" class="cerrar3 cerrar" alt="cerrar">
+                    <div class="logo-3 box-logo">
+                    <img src="../img/pagina_3/logos/logo-sunami.png" alt="logo-sunami" onclick="abirLogo3()"class="tsunami-coffee">
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor__logo">
+                <div id="box-principal4" class="box-p-img">
+                    <img src="../img/pagina_3/iconos web/boton-cerrar.png" class="cerrar4 cerrar" alt="cerrar">
+                    <div class="logo-4 box-logo">
+                    <img src="../img/pagina_3/logos/LOGO_Daniel-con-recuadro.png" onclick="abirLogo4()" alt="logos">
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor__logo">
+                <div id="box-principal5" class="box-p-img">
+                    <img src="../img/pagina_3/iconos web/boton-cerrar.png" class="cerrar5 cerrar" alt="cerrar">
+                    <div class="logo-5 box-logo">
+                    <img src="../img/pagina_3/logos/tecnologia.png" onclick="abirLogo5()" alt="tecnologia">
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+            <div class="imagenes-web-grandes">
+              <div id="box-grande">
+                <img src="../img/pagina_3/iconos web/boton-cerrar.png" class='boton-cerrar' onclick="cerrarIcono()" alt="cerrar">
+
+                <div class="box-logo1 subir-logo">
+                  <img src="../img/pagina_3/logos/Logo Massato.png" alt="massato" class="Massato-Food">
+                </div>
+
+                <div class="box-logo2 logo-segundario-grande subir-logo">
+                  <img src="../img/pagina_3/logos/logo segundario.png" alt="logo-segundario" class="Massato-Food">
+                </div>
+
+                <div class="box-logo3 subir-logo">
+                  <img src="../img/pagina_3/logos/logo-sunami.png" alt="sunami" class="Massato-Food">
+                </div>
+            
+                <div class="box-logo4 subir-logo">
+                  <img src="../img/pagina_3/logos/LOGO_Daniel-con-recuadro.png" alt="Daniel" class="Massato-Food">
+                </div>
+
+                <div class="box-logo5 subir-logo">
+                  <img src="../img/pagina_3/logos/tecnologia.png" alt="technology" class="Massato-Food">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tercera-tercera">
+        <div class="tres-c">
+
+          <div class="responsive box-3" id="box-1">
+              <img src="../img/pagina_3/caracteristicas/responsive.png" alt="loading..." id="resposive" class="animate">      
+              <img src="../img/pagina_3/caracteristicas/dinamicos.png" alt="loading..." id="dinamico" class="animate">
+              <img src="../img/pagina_3/caracteristicas/optimizado.png" alt="loading..." id="optimizado" class="animate">
+          </div>
+
+          <div class="optimizadas box-2" id="box-2">
+            <img src="../img/pagina_3/caracteristicas/responsive=1.png" alt="loading..." id="resposive-1">
+            <img src="../img/pagina_3/caracteristicas/dinamicos=1.png" alt="loading..." id="dinamico-1">
+            <img src="../img/pagina_3/caracteristicas/optimizado=1.png" alt="loading..." id="optimizado-1">
+          </div>
+
+          <div class="dinamicas box-3" id="box-3">
+            <img src="../img/pagina_3/caracteristicas/responsive.png" alt="loading..." id="resposive2">
+            <img src="../img/pagina_3/caracteristicas/dinamicos.png" alt="loading..." id="dinamico2">
+            <img src="../img/pagina_3/caracteristicas/optimizado.png" alt="loading..." id="optimizado2">
+          </div>
+
+        </div>
+      </div>
+</section>
+    
+<!-- JS -->
+<script src="../js/index.js"></script>
+<script src="../js/vanta.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.8.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>
